@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.header {
+    display: inline-block;
+    background-color: #000000;
+    height: 185px;
+    text-align: center;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+img#giphy_gif {
+    margin-left: 100px;
+    width: 320px;
+    height: 167px;
+    clear: both;
+}
+
+.text-center {
+    margin: 10px 0 0 0;
+}
+
+.giphy_title {
+    background-color: #c4df9b;
+    height: 45px;
+}
+
+h4 {
+    color: #00aeef;
+    padding-top: 5px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+div.form_panel {
+    width: 275px;
+    height: 320px;
+    background-color: #00aeef;
+    display: inline-block;
+}
+
+div.inputLabel {
+    display: block;
+    color: #662d91;
+    width: 275px;
+    margin: -175px 0 0 80px;
+    z-index: 999;
+}
+
+#add-game:focus {
+    background-color: #bdd9c7;
+}
+
+#add-game {
+    cursor: pointer;
+}
+
+#buttonPanel {
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #bdd9c7;
+}
+
+
+img#robot {
+    width: 350px;
+    height: 375px;
+    margin: -50px -40px 0 0;
+    display: inline-block;
+}
+
+#gifPanel {
+    background-color: #000000;
+    display: block;
+}
+
+.gaming_btns {
+    background: #FFE535;
+}
+
+button {
+    width: 175px;
+    padding: 5px;
+    margin: 5px 0 0 50px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.gameGif {
+    position: relative;
+    float: left;
+    margin: 20px 20px 0px 0px;
+    border-radius: 5px 5px 5px 5px;
+    left: 15px;
+    background-color: #F76E34;
+}
+
+h2 {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+img {
+    width: 200px;
+    height: 140px;
+}
